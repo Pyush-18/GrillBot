@@ -3,7 +3,7 @@ import React from "react";
 
 function Header() {
   return (
-    <nav className="w-full max-w-7xl mx-auto flex justify-between items-center py-6 px-4 md:px-8">
+    <nav className="w-full max-w-7xl mx-auto flex justify-between items-center py-6 px-4 md:px-8 fixed top-0 z-10 backdrop-blur-xl">
       <div className="flex items-center space-x-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +17,7 @@ function Header() {
       </div>
       <div className="flex items-center space-x-6 md:space-x-8 text-sm font-medium">
         <Link
-          href="#"
+          href="/home"
           className="hover:text-gray-400 transition-colors hidden md:block"
         >
           Home
@@ -29,7 +29,7 @@ function Header() {
           About
         </Link>
         <Link
-          href="#"
+          href="/dashboard"
           className="hover:text-gray-400 transition-colors hidden md:block"
         >
           Dashboard
