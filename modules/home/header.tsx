@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import UserButton from "../auth/components/user-button";
 
 function Header() {
   return (
@@ -17,7 +18,7 @@ function Header() {
       </div>
       <div className="flex items-center space-x-6 md:space-x-8 text-sm font-medium">
         <Link
-          href="/home"
+          href="/"
           className="hover:text-gray-400 transition-colors hidden md:block"
         >
           Home
@@ -34,6 +35,7 @@ function Header() {
         >
           Dashboard
         </Link>
+        <UserButton />
         <Link
           href="#"
           className="bg-white text-black px-4 py-2 rounded-full font-semibold hover:bg-gray-200 transition-colors text-xs md:text-sm"
