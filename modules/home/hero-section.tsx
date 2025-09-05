@@ -3,7 +3,7 @@ import React from 'react'
 
 function HeroSection() {
   return (
-     <main className="flex-1 flex flex-col justify-center items-center text-center px-4 md:px-8 max-w-4xl mx-auto mt-20">
+     <main className="flex-1 flex flex-col justify-center items-center text-center px-4 md:px-8 max-w-4xl mx-auto mt-10">
         <span className="text-sm md:text-base text-gray-400 mb-2 tracking-wide font-medium">
           AI-POWERED INTERVIEW PREPARATION
         </span>
